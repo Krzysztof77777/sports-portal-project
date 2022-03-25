@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    width:100%;
+    font-family: 'Montserrat', sans-serif, Helvetica Neue, Helvetica, Arial;
+    font-size: 1.5rem;
+    font-weight: 500;
+    overflow-x: hidden;
+}
+  
+button {
+    outline: none;
+    border: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1300px;
+    padding: 0px 10px;
+    margin: 0 auto;
+}
