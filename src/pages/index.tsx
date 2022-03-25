@@ -1,7 +1,9 @@
 import React from "react";
 
+import CMS from "../components/CMS/CMS";
+
 const IndexPage = () => {
-  return <h1></h1>;
+  return <CMS></CMS>;
 };
 
 export default IndexPage;

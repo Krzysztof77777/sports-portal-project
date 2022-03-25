@@ -1,0 +1,27 @@
+.panel {
+    display:flex;
+    width: 100%;
+    height: calc(100vh - 55px);
+    &__leftside {
+        width: 250px;
+        height:100%;
+        background: rgb(80, 50, 83);
+    }
+}
+
+.contentPanel {
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+    &__items {
+        flex-grow: 1;
+    }
+}
+
+.settingsPanel {
+    &>div {
+        display:flex;
+        flex-direction:column;
+        padding: 1.5rem 0; 
+    }
+}

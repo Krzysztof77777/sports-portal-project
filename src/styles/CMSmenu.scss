@@ -1,0 +1,22 @@
+.NavigationBar {
+    display:flex;
+    background: rgb(226, 87, 87);
+    height: 55px;
+    &>h1 {
+        text-align: center;
+        padding: 0px 18px;
+        &>span {
+            display:block;
+        }
+    }
+    &>ul {
+        display:flex;
+        align-items: center;
+        &>li {
+            padding: 0px 18px;
+        }
+    }
+    &__auth {
+        margin-left: auto;
+    }
+}
